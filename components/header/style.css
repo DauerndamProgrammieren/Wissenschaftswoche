@@ -1,0 +1,32 @@
+.header-background{
+    background-color: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.header-title{
+    color: black;
+    padding: 10px;
+}
+
+.header-buttonspace{
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-column-gap: 10px;
+}
+
+.header-button{
+    padding: 5px;
+    border-color: lightcoral;
+    border-radius: 20px;
+    color: lightcoral;
+    transition: 0.2s;
+    width: 60px;
+}
+
+.header-button:hover{
+    border-color: lightblue;
+    color: lightblue;
+    background-color: lightcoral;
+}
