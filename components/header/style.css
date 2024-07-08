@@ -1,12 +1,16 @@
 .header-background{
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
     display: grid;
     grid-template-rows: auto auto;
+    padding: 5px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .header-title{
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 10px;
 }
 
@@ -18,15 +22,17 @@
 
 .header-button{
     padding: 5px;
-    border-color: lightcoral;
+    border-color: white;
     border-radius: 20px;
-    color: lightcoral;
+    color: white;
     transition: 0.2s;
     width: 60px;
+    background-color: black;
+    border-style: solid;
 }
 
 .header-button:hover{
-    border-color: lightblue;
-    color: lightblue;
-    background-color: lightcoral;
+    border-color: black;
+    color: black;
+    background-color: white;
 }
