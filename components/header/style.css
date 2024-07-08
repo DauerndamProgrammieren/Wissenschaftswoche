@@ -16,8 +16,8 @@
 
 .header-buttonspace{
     display: grid;
-    grid-template-columns: 60px 60px 60px;
-    grid-column-gap: 10px;
+    grid-template-columns: 70px 60px 60px 60px;
+    grid-column-gap: 15px;
 }
 
 .header-button{
@@ -25,14 +25,13 @@
     border-color: white;
     border-radius: 20px;
     color: white;
-    transition: 0.2s;
-    width: 60px;
+    transition: 1s;
+    width: 100%;
     background-color: black;
     border-style: solid;
 }
 
 .header-button:hover{
-    border-color: black;
     color: black;
     background-color: white;
 }
