@@ -6,6 +6,7 @@ await waitForElm("#q1");
 var butRaetsel1 = document.getElementById("q1");
 var butRaetsel2 = document.getElementById("q2");
 var butRaetsel3 = document.getElementById("q3");
+var butRaetsel3Grafik = document.getElementById("Burgstaller");
 var butUbersicht = document.getElementById("ubersicht");
 
 //functions
@@ -24,6 +25,10 @@ butRaetsel3.onclick =()=>{
 
 butUbersicht.onclick =()=>{
     document.querySelector("#main").setAttribute("src", "/components/index/index.html");
+}
+
+butRaetsel3Grafik.onclick=()=>{
+    document.querySelector("#main").setAttribute("src", "/components/frage3-stat/index.html");
 }
 
 }()

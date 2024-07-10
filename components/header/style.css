@@ -15,9 +15,8 @@
 }
 
 .header-buttonspace{
-    display: grid;
-    grid-template-columns: 70px 60px 60px 60px;
-    grid-column-gap: 15px;
+    display: flex;
+    column-gap: 10px;
 }
 
 .header-button{

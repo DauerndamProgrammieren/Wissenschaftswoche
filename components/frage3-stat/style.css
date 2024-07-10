@@ -1,0 +1,8 @@
+.stat-q3-main{
+    display: flex;
+    column-gap: 20px;
+}
+
+.img{
+    border-radius: 20px;
+}
