@@ -7,6 +7,7 @@
     border-color: white;
     border-width: 3px;
     border-style: solid;
+    flex-wrap: wrap;
 }
 
 .header-title{
@@ -17,6 +18,8 @@
 .header-buttonspace{
     display: flex;
     column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 10px;
 }
 
 .header-button{
@@ -25,7 +28,7 @@
     border-radius: 20px;
     color: white;
     transition: 1s;
-    width: 100%;
+    min-width: 19%;
     background-color: black;
     border-style: solid;
 }
